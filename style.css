@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #000;
+    width: 210mm; 
+    height: 297mm; 
+    margin: 0;
+    padding: 20mm; 
+    box-sizing: border-box;
+  }
+  header {
+    background-color: darkblue;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+  
+  /* Заголовок и кнопка */
+  h1 {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  button {
+    background-color: purple;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    margin: 15px 10px 10px 5px;
+  }
+
+  button:hover {
+    background-color: #800080;
+  }
+
+  h2 {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  /* Галерея изображений */
+  .gallery {
+    width: 170px;
+    height: 170px;
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+   
+  }
+  .gallery img {
+    max-width: 100%;
+  height: auto;
+  border-radius: 15px;
+  }
+  .section {
+    margin-bottom: 30px; /* отступ между секциями */
+   
+  }
+  .sections {
+    margin-bottom: 30px; /* отступ между секциями */
+    margin-top: 200px; /* отступ между фотографиями днями*/
+  }
+  .checkmark {
+    color: green;
+    margin-right: 8px;
+  }
+  .cross {
+    color: red;
+    margin-right: 8px;
+  }
+  .sectione {
+    margin-bottom: 30px; /* отступ между секциями */
+    margin-top: 100px; /* отступ между фотографиями днями*/
+  }
